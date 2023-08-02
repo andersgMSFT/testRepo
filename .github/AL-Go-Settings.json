@@ -7,7 +7,7 @@
   ],
   "DeployToDev": {
     "environmentName": "BcDataVerse",
-    "companyId": "2ea52f0b-4219-ee11-9cc4-6045bdc8a349,
+    "companyId": "2ea52f0b-4219-ee11-9cc4-6045bdc8a349",
     "ppEnvironmentUrl": "https://org789409de.crm.dynamics.com/"
   }
 }
