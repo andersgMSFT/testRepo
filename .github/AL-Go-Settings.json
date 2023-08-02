@@ -1,4 +1,13 @@
 {
   "type": "PTE",
-  "templateUrl": "https://github.com/microsoft/AL-Go-PTE@PPPreview"
+  "templateUrl": "https://github.com/Microsoft/AL-Go-PTE@PPPreview",
+  "powerPlatformSolutionFolder": "BcVTTestSolution",
+  "environments": [
+    "Dev (Production)"
+  ],
+  "DeployToDev": {
+    "environmentName": "BcDataVerse",
+    "companyId": "2ea52f0b-4219-ee11-9cc4-6045bdc8a349,
+    "ppEnvironmentUrl": "https://org789409de.crm.dynamics.com/"
+  }
 }
