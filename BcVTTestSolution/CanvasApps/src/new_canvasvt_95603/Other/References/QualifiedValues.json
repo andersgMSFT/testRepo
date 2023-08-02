@@ -1,0 +1,11 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "default.cds_dyn365bc_customer_v2_0_forms",
+      "Namespace": "Customers (Forms)",
+      "Values": {
+        "Information": "2f9b6372-351a-be42-3ed9-a1b47203328a"
+      }
+    }
+  ]
+}
