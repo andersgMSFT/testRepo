@@ -1,0 +1,40 @@
+Screen1 As screen:
+    LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
+
+    "TextBox1 As 'Text box'":
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =55
+        Height: =85
+        Value: ="Welcome"
+        Width: =332
+        X: =Parent.Width/2 - Self.Width/2
+        Y: =165
+        ZIndex: =1
+
+    Button1 As Button:
+        BorderThickness: =2
+        ButtonType: ='Button.ButtonType'.Standard
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =30
+        Height: =81
+        OnSelect: =Notify("You clicked!!!");
+        Text: ="Notification test"
+        Width: =341
+        X: =517
+        Y: =376
+        ZIndex: =2
+
+    Button1_1 As Button:
+        BorderThickness: =2
+        ButtonType: ='Button.ButtonType'.Standard
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =30
+        Height: =81
+        OnSelect: |-
+            =Launch("https://bing.com")
+        Text: ="Link test"
+        Width: =341
+        X: =517
+        Y: =515
+        ZIndex: =3
+

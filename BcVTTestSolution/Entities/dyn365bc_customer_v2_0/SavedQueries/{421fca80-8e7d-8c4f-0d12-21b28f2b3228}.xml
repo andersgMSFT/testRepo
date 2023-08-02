@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{421fca80-8e7d-8c4f-0d12-21b28f2b3228}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="dyn365bc_displayname" select="1" icon="1" preview="1">
+        <row name="result" id="dyn365bc_customer_v2_0id">
+          <cell name="dyn365bc_number" width="100" />
+          <cell name="dyn365bc_displayname" width="300" />
+          <cell name="dyn365bc_phonenumber" width="100" />
+          <cell name="dyn365bc_email" width="100" />
+          <cell name="dyn365bc_city" width="100" />
+          <cell name="dyn365bc_addressline1" width="126" />
+          <cell name="dyn365bc_balancedue" width="112" />
+          <cell name="dyn365bc_creditlimit" width="110" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="dyn365bc_customer_v2_0">
+          <attribute name="dyn365bc_customer_v2_0id" />
+          <attribute name="dyn365bc_displayname" />
+          <attribute name="dyn365bc_addressline1" />
+          <attribute name="dyn365bc_balancedue" />
+          <attribute name="dyn365bc_city" />
+          <attribute name="dyn365bc_creditlimit" />
+          <attribute name="dyn365bc_email" />
+          <attribute name="dyn365bc_number" />
+          <attribute name="dyn365bc_phonenumber" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="All Customers" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
